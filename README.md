@@ -173,6 +173,11 @@ print(lib.sort_values("PS", ascending=False).head(20))
 ### Change the target panel
 
 Edit the `TARGETS` / ChEMBL-ID / UniProt mapping in `step2`–`step7` (one dict per script) and re-run. The architecture, loss, featurizer, AD module, and scoring are target-agnostic. Note per-target data availability varies — validate any new panel as done here (internal split + external set + a pre-specified recovery standard if one exists).
+### Before retraining on a new panel, check:
+- ≥ ~1,000 measured (IC50/Ki) ligands per target in ChEMBL (after wild-type filtering)
+- An external data source per target (e.g., BindingDB) for temporal validation
+- Ideally: at least one known multi-target active to serve as a recovery standard
+
 
 ## Key methods
 
