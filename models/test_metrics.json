@@ -1,0 +1,54 @@
+{
+  "config": {
+    "targets": [
+      "ABL1",
+      "c-KIT",
+      "PDGFRB"
+    ],
+    "hidden_dim": 256,
+    "num_layers": 4,
+    "dropout": 0.2,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "batch_size": 64,
+    "pos_weights": [
+      0.23132969439029694,
+      0.21499668061733246,
+      0.530628502368927
+    ]
+  },
+  "best_epoch": 51,
+  "best_val_avg_auprc": 0.9422976165393493,
+  "runtime_s": 609.2,
+  "thresholds": {
+    "ABL1": 0.4800000000000001,
+    "c-KIT": 0.4800000000000001,
+    "PDGFRB": 0.7500000000000002
+  },
+  "test_metrics": {
+    "ABL1": {
+      "n_labeled": 367,
+      "n_active": 246,
+      "n_inactive": 121,
+      "AUC": 0.8899079486662634,
+      "AUPRC": 0.9513128513885645,
+      "MCC": 0.5899098152172806
+    },
+    "c-KIT": {
+      "n_labeled": 223,
+      "n_active": 180,
+      "n_inactive": 43,
+      "AUC": 0.8684754521963823,
+      "AUPRC": 0.9562224925739261,
+      "MCC": 0.4817000879241334
+    },
+    "PDGFRB": {
+      "n_labeled": 235,
+      "n_active": 155,
+      "n_inactive": 80,
+      "AUC": 0.8426612903225805,
+      "AUPRC": 0.9123878380741719,
+      "MCC": 0.5020843018534592
+    }
+  }
+}

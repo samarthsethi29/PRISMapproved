@@ -1,0 +1,41 @@
+{
+  "cutoff": "2016-01-01",
+  "per_target": {
+    "ABL1": {
+      "bdb_ligands": 4173,
+      "skipped_in_base": 2514,
+      "skipped_approved": 43,
+      "undated_to_train": 64,
+      "pre_cutoff_added": 571,
+      "pre_actives": 294,
+      "post_cutoff_heldout": 362,
+      "post_actives": 287
+    },
+    "c-KIT": {
+      "bdb_ligands": 4705,
+      "skipped_in_base": 2123,
+      "skipped_approved": 36,
+      "undated_to_train": 4,
+      "pre_cutoff_added": 72,
+      "pre_actives": 64,
+      "post_cutoff_heldout": 1533,
+      "post_actives": 1504
+    },
+    "PDGFRB": {
+      "bdb_ligands": 3892,
+      "skipped_in_base": 1874,
+      "skipped_approved": 33,
+      "undated_to_train": 1,
+      "pre_cutoff_added": 517,
+      "pre_actives": 258,
+      "post_cutoff_heldout": 745,
+      "post_actives": 732
+    }
+  },
+  "matrix_size": 7495,
+  "heldout_counts": {
+    "ABL1": 362,
+    "c-KIT": 1533,
+    "PDGFRB": 745
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "labels": {
+    "ABL1": {
+      "n_labeled": 3425,
+      "actives": 2668,
+      "inactives": 757,
+      "label_type": "binary"
+    },
+    "c-KIT": {
+      "n_labeled": 2297,
+      "actives": 1872,
+      "inactives": 425,
+      "label_type": "binary"
+    },
+    "PDGFRB": {
+      "n_labeled": 2400,
+      "actives": 1580,
+      "inactives": 820,
+      "label_type": "binary"
+    }
+  },
+  "gold_standard": {
+    "imatinib": {
+      "id": "CHEMBL941",
+      "pAct": {
+        "ABL1": 6.658,
+        "c-KIT": 6.685,
+        "PDGFRB": 6.517
+      }
+    },
+    "dasatinib": {
+      "id": "CHEMBL5416410",
+      "pAct": {
+        "ABL1": 8.509,
+        "c-KIT": 7.983,
+        "PDGFRB": 7.553
+      }
+    },
+    "nilotinib": {
+      "id": "CHEMBL255863",
+      "pAct": {
+        "ABL1": 7.553,
+        "c-KIT": 6.801,
+        "PDGFRB": 7.185
+      }
+    },
+    "ponatinib": {
+      "id": "CHEMBL1171837",
+      "pAct": {
+        "ABL1": 9.432,
+        "c-KIT": 8.77,
+        "PDGFRB": 8.921
+      }
+    }
+  },
+  "internal": {
+    "ABL1": {
+      "n": 367,
+      "n_active": 246,
+      "n_inactive": 121,
+      "threshold_MCC": 0.48,
+      "AUC": 0.89,
+      "AUPRC": 0.951,
+      "MCC": 0.59
+    },
+    "c-KIT": {
+      "n": 223,
+      "n_active": 180,
+      "n_inactive": 43,
+      "threshold_MCC": 0.48,
+      "AUC": 0.868,
+      "AUPRC": 0.956,
+      "MCC": 0.482
+    },
+    "PDGFRB": {
+      "n": 235,
+      "n_active": 155,
+      "n_inactive": 80,
+      "threshold_MCC": 0.75,
+      "AUC": 0.843,
+      "AUPRC": 0.912,
+      "MCC": 0.502
+    }
+  },
+  "screen": {
+    "n_screened": 3386,
+    "n_ad": 555,
+    "EF5": 5.0,
+    "hits_top5pct": 1,
+    "screen_AUROC": 0.935,
+    "kinase_median_pct": 15.6,
+    "controls_median_pct": 19.5,
+    "ps": "geometric mean of the three P(active)"
+  },
+  "external": {
+    "ABL1": {
+      "exact": {
+        "n_labeled": 701,
+        "rho": 0.459,
+        "AUC": 0.577,
+        "n_act": 274,
+        "n_inact": 32,
+        "pred_q05/50/95": [
+          0.002,
+          0.758,
+          1.0
+        ]
+      },
+      "inclusive": {
+        "n_labeled": 894,
+        "rho": 0.417,
+        "AUC": 0.673,
+        "n_act": 375,
+        "n_inact": 101,
+        "pred_q05/50/95": [
+          0.002,
+          0.758,
+          1.0
+        ]
+      },
+      "recorded_step6": {
+        "AUC": 0.627,
+        "rho": 0.443,
+        "n": 682,
+        "CI": "0.55-0.70"
+      },
+      "figure_variant": "pAct_exact"
+    },
+    "c-KIT": {
+      "exact": {
+        "n_labeled": 1306,
+        "rho": 0.177,
+        "AUC": 0.89,
+        "n_act": 1016,
+        "n_inact": 13,
+        "pred_q05/50/95": [
+          0.083,
+          0.905,
+          0.997
+        ]
+      },
+      "inclusive": {
+        "n_labeled": 2408,
+        "rho": 0.192,
+        "AUC": 0.901,
+        "n_act": 2060,
+        "n_inact": 49,
+        "pred_q05/50/95": [
+          0.083,
+          0.905,
+          0.997
+        ]
+      },
+      "recorded_step6": {
+        "AUC": 0.873,
+        "rho": 0.106,
+        "n": 1175,
+        "CI": "0.79-0.94"
+      },
+      "figure_variant": "pAct_exact"
+    },
+    "PDGFRB": {
+      "exact": {
+        "n_labeled": 1165,
+        "rho": 0.678,
+        "pred_q05/50/95": [
+          0.009,
+          0.88,
+          0.999
+        ]
+      },
+      "inclusive": {
+        "n_labeled": 1450,
+        "rho": 0.647,
+        "AUC": 0.72,
+        "n_act": 930,
+        "n_inact": 29,
+        "pred_q05/50/95": [
+          0.009,
+          0.88,
+          0.999
+        ]
+      },
+      "recorded_step6": {
+        "AUC": 0.719,
+        "rho": 0.679,
+        "n": 1165,
+        "CI": "0.58-0.83"
+      },
+      "figure_variant": "pAct_exact"
+    }
+  },
+  "training_log": "models/train_log.json"
+}

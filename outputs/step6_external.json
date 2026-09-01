@@ -1,0 +1,81 @@
+{
+  "ABL1": {
+    "n_external": 962,
+    "type_counts": {
+      "Ki/IC50": 653,
+      "censored": 74,
+      "Kd": 29
+    },
+    "AUC_full": {
+      "n": 362,
+      "act": 287,
+      "inact": 75,
+      "pos_rate": 0.793,
+      "AUC": 0.627,
+      "AUC_95CI": "0.55-0.70",
+      "AUPRC": 0.864
+    },
+    "AUC_KiIC50_only": {
+      "n": 275,
+      "act": 245,
+      "inact": 30,
+      "pos_rate": 0.891,
+      "AUC": 0.571,
+      "AUC_95CI": "0.45-0.69",
+      "AUPRC": 0.914
+    },
+    "Spearman_rho": 0.443,
+    "Spearman_n": 682,
+    "Spearman_rho_KiIC50_only": 0.45
+  },
+  "c-KIT": {
+    "n_external": 2464,
+    "type_counts": {
+      "Ki/IC50": 1175,
+      "censored": 578,
+      "Kd": 44
+    },
+    "AUC_full": {
+      "n": 1533,
+      "act": 1504,
+      "inact": 29,
+      "pos_rate": 0.981,
+      "AUC": 0.873,
+      "AUC_95CI": "0.79-0.94",
+      "AUPRC": 0.996
+    },
+    "AUC_KiIC50_only": {
+      "n": 923,
+      "act": 911,
+      "inact": 12,
+      "pos_rate": 0.987,
+      "AUC": 0.916,
+      "AUC_95CI": "0.76-0.99",
+      "AUPRC": 0.998
+    },
+    "Spearman_rho": 0.12,
+    "Spearman_n": 1219,
+    "Spearman_rho_KiIC50_only": 0.106
+  },
+  "PDGFRB": {
+    "n_external": 1458,
+    "type_counts": {
+      "Ki/IC50": 1150,
+      "censored": 40,
+      "Kd": 15
+    },
+    "AUC_full": {
+      "n": 745,
+      "act": 732,
+      "inact": 13,
+      "pos_rate": 0.983,
+      "AUC": 0.719,
+      "AUC_95CI": "0.58-0.83",
+      "AUPRC": 0.993
+    },
+    "AUC_KiIC50_only": null,
+    "Spearman_rho": 0.679,
+    "Spearman_n": 1165,
+    "Spearman_rho_KiIC50_only": 0.679
+  }
+}

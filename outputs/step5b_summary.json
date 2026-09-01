@@ -1,0 +1,73 @@
+{
+  "n_full": 3386,
+  "n_ad": 555,
+  "sim_threshold": 0.3,
+  "heavy_atom_bounds": [
+    17.0,
+    45.0
+  ],
+  "recovery": [
+    {
+      "drug": "imatinib",
+      "old_rank": 72,
+      "ad_rank": 40,
+      "ad_rank_pct": 7.21,
+      "PS": 0.783,
+      "max_train_sim": 0.8399999737739563,
+      "P_ABL1": 0.608,
+      "P_c-KIT": 0.913,
+      "P_PDGFRB": 0.865,
+      "pAct_ABL1": 6.658,
+      "pAct_c-KIT": 6.685,
+      "pAct_PDGFRB": 6.517
+    },
+    {
+      "drug": "dasatinib",
+      "old_rank": 121,
+      "ad_rank": 59,
+      "ad_rank_pct": 10.63,
+      "PS": 0.659,
+      "max_train_sim": 0.8600000143051147,
+      "P_ABL1": 0.999,
+      "P_c-KIT": 0.994,
+      "P_PDGFRB": 0.288,
+      "pAct_ABL1": 8.509,
+      "pAct_c-KIT": 7.983,
+      "pAct_PDGFRB": 7.553
+    },
+    {
+      "drug": "nilotinib",
+      "old_rank": 105,
+      "ad_rank": 52,
+      "ad_rank_pct": 9.37,
+      "PS": 0.71,
+      "max_train_sim": 0.8299999833106995,
+      "P_ABL1": 0.999,
+      "P_c-KIT": 0.759,
+      "P_PDGFRB": 0.471,
+      "pAct_ABL1": 7.553,
+      "pAct_c-KIT": 6.801,
+      "pAct_PDGFRB": 7.185
+    },
+    {
+      "drug": "ponatinib",
+      "old_rank": 2,
+      "ad_rank": 2,
+      "ad_rank_pct": 0.36,
+      "PS": 0.996,
+      "max_train_sim": 0.949999988079071,
+      "P_ABL1": 1.0,
+      "P_c-KIT": 0.999,
+      "P_PDGFRB": 0.991,
+      "pAct_ABL1": 9.432,
+      "pAct_c-KIT": 8.77,
+      "pAct_PDGFRB": 8.921
+    }
+  ],
+  "EF1": 23.125,
+  "EF5": 4.955357142857142,
+  "top1_size": 6,
+  "top5_size": 28,
+  "hits_top1": 1,
+  "hits_top5": 1
+}

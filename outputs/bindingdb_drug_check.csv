@@ -1,0 +1,13 @@
+drug,target,BindingDB,PRISM_P,ChEMBL37_pAct
+imatinib,ABL1,300 nM (Ki/IC50),0.608,6.658
+dasatinib,ABL1,1.6 nM (Ki/IC50),0.999,8.509
+nilotinib,ABL1,29.5 nM (Ki/IC50),0.999,7.553
+ponatinib,ABL1,0.74 nM (Ki/IC50),1.0,9.432
+imatinib,c-KIT,385 nM (Ki/IC50),0.913,6.685
+dasatinib,c-KIT,620 nM (Ki/IC50),0.994,7.983
+nilotinib,c-KIT,158 nM (Ki/IC50),0.759,6.801
+ponatinib,c-KIT,8 nM (Ki/IC50),0.999,8.77
+imatinib,PDGFRB,240 nM (Ki/IC50),0.865,6.517
+dasatinib,PDGFRB,28 nM (Ki/IC50),0.288,7.553
+nilotinib,PDGFRB,42.5 nM (Ki/IC50),0.471,7.185
+ponatinib,PDGFRB,1.2 nM (Ki/IC50),0.991,8.921

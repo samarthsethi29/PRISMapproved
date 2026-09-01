@@ -1,0 +1,87 @@
+{
+  "targets": {
+    "ABL1": "CHEMBL1862",
+    "c-KIT": "CHEMBL1936",
+    "PDGFRB": "CHEMBL1913"
+  },
+  "uniprot": {
+    "ABL1": "P00519",
+    "c-KIT": "P10721",
+    "PDGFRB": "P09619"
+  },
+  "active_cut_pAct": 6.0,
+  "inactive_cut_pAct": 5.0,
+  "filters": [
+    "assay_type B only",
+    "non-mutant descriptions",
+    "exact medians; '>'>=10uM inactive; '<'<=1uM active",
+    "approved drugs (max_phase=4) excluded"
+  ],
+  "split": "Bemis-Murcko, largest-group-first greedy, deterministic",
+  "sizes": {
+    "train": 5044,
+    "val": 630,
+    "test": 632
+  },
+  "sha256": {
+    "matrix.csv": "2dd35e9adc3648a3da25fe7c5beba6d18d55f3c62ba05e826f01228ca31996d6",
+    "train.csv": "414fbe690460acd93ffe8277491a5e9315b33ef2a9a4ff84f4aa77041501f6b2",
+    "val.csv": "2cf612255815f59f33d2583b0d6156d8b2f51fe3d9cd55624a048127293eb0dd",
+    "test.csv": "1f581e26fc5daea91f65cfdd76d997c307c6df425eae975bb9ddb345f9776aef",
+    "approved_drugs.csv": "5a1d797bbbd622726959b0f29404dee3c261a4e62bcffd82a7b091b3a1518cd1"
+  },
+  "chembl_status": {
+    "activities": 24527044,
+    "chembl_db_version": "ChEMBL_37",
+    "chembl_release_date": "2026-05-01",
+    "compound_records": 3824604,
+    "disinct_compounds": 2921148,
+    "publications": 101100,
+    "status": "UP",
+    "targets": 18552
+  },
+  "v3_merge": {
+    "cutoff": "2016-01-01",
+    "training_sources": "ChEMBL_37 + BindingDB pre-cutoff",
+    "external_design": "BindingDB-only, earliest publication > cutoff",
+    "undated_policy": "assigned to training (conservative)",
+    "per_target": {
+      "ABL1": {
+        "bdb_ligands": 4173,
+        "skipped_in_base": 2514,
+        "skipped_approved": 43,
+        "undated_to_train": 64,
+        "pre_cutoff_added": 571,
+        "pre_actives": 294,
+        "post_cutoff_heldout": 362,
+        "post_actives": 287
+      },
+      "c-KIT": {
+        "bdb_ligands": 4705,
+        "skipped_in_base": 2123,
+        "skipped_approved": 36,
+        "undated_to_train": 4,
+        "pre_cutoff_added": 72,
+        "pre_actives": 64,
+        "post_cutoff_heldout": 1533,
+        "post_actives": 1504
+      },
+      "PDGFRB": {
+        "bdb_ligands": 3892,
+        "skipped_in_base": 1874,
+        "skipped_approved": 33,
+        "undated_to_train": 1,
+        "pre_cutoff_added": 517,
+        "pre_actives": 258,
+        "post_cutoff_heldout": 745,
+        "post_actives": 732
+      }
+    },
+    "matrix_size": 7495,
+    "split_sizes": {
+      "train": 5996,
+      "val": 749,
+      "test": 750
+    }
+  }
+}

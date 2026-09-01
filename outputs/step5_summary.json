@@ -1,0 +1,190 @@
+{
+  "n_screened": 3386,
+  "weights": {
+    "ABL1": 0.3333333333333333,
+    "c-KIT": 0.3333333333333333,
+    "PDGFRB": 0.3333333333333333
+  },
+  "ground_truth_source": "ChEMBL_37 wild-type assay medians",
+  "recovery": [
+    {
+      "drug": "imatinib",
+      "rank": 72,
+      "rank_pct": 2.13,
+      "PS": 0.783,
+      "P_ABL1": 0.6079999804496765,
+      "rank_ABL1": 197,
+      "pAct_ABL1": 6.658,
+      "P_c-KIT": 0.9129999876022339,
+      "rank_c-KIT": 113,
+      "pAct_c-KIT": 6.685,
+      "P_PDGFRB": 0.8650000095367432,
+      "rank_PDGFRB": 773,
+      "pAct_PDGFRB": 6.517
+    },
+    {
+      "drug": "dasatinib",
+      "rank": 121,
+      "rank_pct": 3.57,
+      "PS": 0.659,
+      "P_ABL1": 0.9990000128746033,
+      "rank_ABL1": 9,
+      "pAct_ABL1": 8.509,
+      "P_c-KIT": 0.9940000176429749,
+      "rank_c-KIT": 11,
+      "pAct_c-KIT": 7.983,
+      "P_PDGFRB": 0.2879999876022339,
+      "rank_PDGFRB": 1781,
+      "pAct_PDGFRB": 7.553
+    },
+    {
+      "drug": "nilotinib",
+      "rank": 105,
+      "rank_pct": 3.1,
+      "PS": 0.71,
+      "P_ABL1": 0.9990000128746033,
+      "rank_ABL1": 11,
+      "pAct_ABL1": 7.553,
+      "P_c-KIT": 0.7590000033378601,
+      "rank_c-KIT": 281,
+      "pAct_c-KIT": 6.801,
+      "P_PDGFRB": 0.47099998593330383,
+      "rank_PDGFRB": 1447,
+      "pAct_PDGFRB": 7.185
+    },
+    {
+      "drug": "ponatinib",
+      "rank": 2,
+      "rank_pct": 0.06,
+      "PS": 0.996,
+      "P_ABL1": 1.0,
+      "rank_ABL1": 5,
+      "pAct_ABL1": 9.432,
+      "P_c-KIT": 0.9990000128746033,
+      "rank_c-KIT": 2,
+      "pAct_c-KIT": 8.77,
+      "P_PDGFRB": 0.9909999966621399,
+      "rank_PDGFRB": 202,
+      "pAct_PDGFRB": 8.921
+    }
+  ],
+  "EF1": 24.897058823529413,
+  "EF5": 20.035502958579883,
+  "top1_size": 34,
+  "top5_size": 169,
+  "hits_top1": 1,
+  "hits_top5": 4,
+  "screen_auroc": 0.9785629804849201,
+  "kinase_cohort": [
+    {
+      "name": "sunitinib",
+      "rank": 107,
+      "rank_pct": 3.16,
+      "PS": 0.708
+    },
+    {
+      "name": "sorafenib",
+      "rank": 20,
+      "rank_pct": 0.59,
+      "PS": 0.911
+    },
+    {
+      "name": "pazopanib",
+      "rank": 14,
+      "rank_pct": 0.41,
+      "PS": 0.942
+    },
+    {
+      "name": "axitinib",
+      "rank": 404,
+      "rank_pct": 11.93,
+      "PS": 0.325
+    },
+    {
+      "name": "bosutinib",
+      "rank": 1040,
+      "rank_pct": 30.71,
+      "PS": 0.117
+    },
+    {
+      "name": "regorafenib",
+      "rank": 19,
+      "rank_pct": 0.56,
+      "PS": 0.912
+    },
+    {
+      "name": "vandetanib",
+      "rank": 610,
+      "rank_pct": 18.02,
+      "PS": 0.227
+    },
+    {
+      "name": "cabozantinib",
+      "rank": 365,
+      "rank_pct": 10.78,
+      "PS": 0.349
+    },
+    {
+      "name": "lenvatinib",
+      "rank": 26,
+      "rank_pct": 0.77,
+      "PS": 0.895
+    },
+    {
+      "name": "midostaurin",
+      "rank": 984,
+      "rank_pct": 29.06,
+      "PS": 0.128
+    }
+  ],
+  "controls": [
+    {
+      "name": "metformin",
+      "rank": 1549,
+      "rank_pct": 45.75,
+      "PS": 0.059
+    },
+    {
+      "name": "atorvastatin",
+      "rank": 422,
+      "rank_pct": 12.46,
+      "PS": 0.316
+    },
+    {
+      "name": "warfarin",
+      "rank": 221,
+      "rank_pct": 6.53,
+      "PS": 0.478
+    },
+    {
+      "name": "ibuprofen",
+      "rank": 3004,
+      "rank_pct": 88.72,
+      "PS": 0.003
+    },
+    {
+      "name": "amoxicillin",
+      "rank": 649,
+      "rank_pct": 19.17,
+      "PS": 0.214
+    },
+    {
+      "name": "oseltamivir",
+      "rank": 968,
+      "rank_pct": 28.59,
+      "PS": 0.13
+    },
+    {
+      "name": "fluoxetine",
+      "rank": 54,
+      "rank_pct": 1.59,
+      "PS": 0.835
+    },
+    {
+      "name": "loratadine",
+      "rank": 1221,
+      "rank_pct": 36.06,
+      "PS": 0.091
+    }
+  ]
+}

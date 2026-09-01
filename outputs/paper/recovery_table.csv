@@ -1,0 +1,5 @@
+drug,full_rank,ad_rank,ad_rank_pct,PS,max_train_sim,pred_ABL1,pred_c-KIT,pred_PDGFRB,meas_pAct_ABL1,meas_pAct_c-KIT,meas_pAct_PDGFRB
+imatinib,72,40,7.21,0.7832,0.843,0.6077,0.9134,0.8655,6.658,6.685,6.517
+dasatinib,121,59,10.63,0.6588,0.859,0.9994,0.9944,0.2877,8.509,7.983,7.553
+nilotinib,105,52,9.37,0.7098,0.827,0.9989,0.7593,0.4714,7.553,6.801,7.185
+ponatinib,2,2,0.36,0.9965,0.946,0.9996,0.9987,0.9912,9.432,8.77,8.921
