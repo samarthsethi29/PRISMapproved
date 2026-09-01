@@ -253,8 +253,8 @@ If you use PRISM, please cite the accompanying paper:
 
 MIT — see [LICENSE](LICENSE).
 
-## Citing PRISM
-If you use PRISM in your research, please cite:
+## Citing PRISM Software:
+If you use PRISM software in your research, please cite:
 ```
-@software{prism_sethi_2026,  author       = {Sethi, Samarth},  title        = {PRISM: Polypharmacology Ranking through Integrated Screening of Approved Molecules},  year         = {2026}}
+@software{prism_sethi_2026,  author = {Sethi, Samarth and Shukla, Dev},  title = {PRISM: Polypharmacology Ranking through Integrated Screening of Approved Molecules},  year = {2026}}
 ```
